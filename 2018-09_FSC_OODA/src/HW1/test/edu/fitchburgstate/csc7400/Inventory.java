@@ -2,8 +2,11 @@ package HW1.test.edu.fitchburgstate.csc7400;
 
 /**
  * JUnit Test cases for Inventory class  
- * @author saran
- * @version 1.0
+ * Professor Name : Orlando Montalvo
+ * Date : 09-18-2018
+ * Assignment : HW1
+ * Participants : snemani(01400045)
+ * @version 2.0
  */
 
 import static org.junit.Assert.assertEquals;
@@ -16,38 +19,23 @@ import org.junit.Test;
 import HW1.edu.fitchburgstate.csc7400.Guitar;
 import HW1.edu.fitchburgstate.csc7400.Inventory;
 
-public class InventTest {
+public class InventoryTest {
 	
-	Inventory inventory;
-	
-	private LinkedList<Guitar> guitars = new LinkedList<Guitar>();
+	Inventory inventoryClass;
+	Guitar guitarClass;
+	GuitarSpec guitarSpec;
 
+/**
+ * Test data and add guitar data to inventory
+ */	
 	@Before
 	public void setUp() throws Exception {
-		this.inventory = new Inventory();
-		inventory.addGuitar(
-				"1092", 
-				12995.95, 
-				"Olson", 
-				"SJ", 
-				"acoustic",
-                "Indian Rosewood", 
-                "Cedar"
-				);
-		{
-			
-			Guitar guitar=new Guitar("1092", 
-					12995.95, 
-					"Olson", 
-					"SJ", 
-					"acoustic",
-	                "Indian Rosewood", 
-	                "Cedar");
-			guitars.add(guitar);
-			
-		}
-	
+		inventoryClass = new Inventory();
 	}
+
+/**
+ * This function is to test getGuitar() method that takes serial number.
+ */	
 
 	@Test
 	public void testSerialNumber() {
