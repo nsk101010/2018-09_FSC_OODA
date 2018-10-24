@@ -1,11 +1,11 @@
-/**
- * Class: Object-Oriented Design and Analysis
- * Professor: Orlando Montalvo
- * Assignment: HW 1
- * 
- * Date: 2018-09-03
+/*
+ * Course Name : Object Oriented Design and Analysis
+ * Professor Name : Orlando Montalvo
+ * Date : 09-18-2018
+ * Assignment1
+ * Participants : Saran Nemani(01400045)
+ * Version 2.0
  */
-
 package HW1.edu.fitchburgstate.csc7400;
 
 /**

@@ -7,9 +7,14 @@ import java.util.List;
 /**
  * Inventory keeps a searchable collection of Guitars. It is meant to be use
  * to find matching guitars for customers. 
- * 
- * @author orlando
- * @version 2.0
+ *
+ * Course Name : Object Oriented Design and Analysis
+ * Professor Name : Orlando Montalvo
+ * Date : 09-18-2018
+ * Assignment1
+ * Participants : Saran Nemani(01400045)
+ *
+ * Version 2.0
  */
 public class Inventory {
   private List<Guitar> guitars = new LinkedList<Guitar>();
